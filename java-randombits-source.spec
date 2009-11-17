@@ -48,6 +48,8 @@ Requires:	%{name} = %{epoch}:%{version}-%{release}
 %description confluence
 Classes from org.randombits.source.confluence java package.
 
+%prep
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_javadir}
