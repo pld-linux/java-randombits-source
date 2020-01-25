@@ -14,7 +14,6 @@
 ### %endif
 ### #
 
-%include	/usr/lib/rpm/macros.java
 
 # Name without java- prefix. If it is application, not a library,
 # just do s/srcname/name/g
